@@ -1,0 +1,8 @@
+Заходим на страницу https://www.ecwid.com/demo/account/favorites
+Проверяем есть ли вложения в class = ec-page-body
+если нет, то идем на https://www.ecwid.com/demo/Boardshorts-p109736047?ipad=1&lang=en добавляем в favorites
+идем на https://www.ecwid.com/demo/account/favorites проверяем есть ли элемент class =grid-product--id-109736047 и в class = ec-page-body только 1 элемент.
+проверяем переход на страницу товара .click() по class=grid-product__wrap-inner внутри элемента товара, возвращаемся обратно.
+Проверяем удаление из избранного нажимая кнопку найдя ее по class= favorite-product__button-saved внутри элементы найденного выше,
+обновляем страницу, проверяем отсутствие class =grid-product--id-109736047
+Прошу уточнить, должен ли удаляться из избранного товар после покупки.
